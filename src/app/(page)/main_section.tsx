@@ -1,11 +1,4 @@
 import Image from "next/image";
-import GitHubIcon from "@icons/GitHub.svg";
-import JavaScriptIcon from "@icons/JavaScript.svg";
-import ReactIcon from "@icons/React.svg";
-import NodeJsIcon from "@icons/Node.js.svg";
-import NestJsIcon from "@icons/NestJS.svg";
-import NextjsIcon from "@icons/nextjs-icon.svg";
-import CSS from "@/src/icons/CSS.svg";
 
 export default function MainSection() {
   return (
@@ -46,32 +39,32 @@ export default function MainSection() {
 
         <div className="flex flex-wrap gap-4 justify-center ">
           <span className="flex items-center gap-2 bg-gray-800 text-white rounded-full p-2">
-            <GitHubIcon className="w-8 h-8 fill-current text-white" /> GitHub
+            <Image alt="" src={"GitHub.svg"} className="w-8 h-8 fill-current text-white " width={30} height={30} /> GitHub
           </span>
 
           <span className="flex items-center gap-2 bg-gray-800 text-white rounded-full p-2 w-25 justify-center">
-            <CSS className=" fill-current text-[#3996DB]" />
+            <Image alt="" src={"CSS.svg"} className="w-8 h-8 fill-current text-white " width={30} height={30} />
             CSS
           </span>
 
           <span className="flex items-center gap-2 bg-gray-800 text-white rounded-full p-2">
-            <JavaScriptIcon className="w-8 h-8 fill-current text-[#EABD5F]" /> JavaScript
+            <Image alt="" src={"JavaScript.svg"} className="w-8 h-8 fill-current text-white " width={30} height={30} /> JavaScript
           </span>
 
           <span className="flex items-center gap-2 bg-gray-800 text-white rounded-full p-2">
-            <ReactIcon className="w-8 h-8 fill-current text-[#3996DB]" /> React
+            <Image alt="" src={"React.svg"} className="w-8 h-8 fill-current text-white " width={30} height={30} /> React
           </span>
 
           <span className="flex items-center gap-2 bg-gray-800 text-white rounded-full p-2">
-            <NodeJsIcon className="w-8 h-8 fill-current text-[#82BC4F]" /> NodeJs
+            <Image alt="" src={"Node.js.svg"} className="w-8 h-8 fill-current text-white " width={30} height={30} /> NodeJs
           </span>
 
           <span className="flex items-center gap-2 bg-gray-800 text-white rounded-full p-2">
-            <NestJsIcon className="w-8 h-8 fill-current text-[#E02A2A]" /> NestJs
+            <Image alt="" src={"NestJS.svg"} className="w-8 h-8 fill-current text-white " width={30} height={30} /> NestJs
           </span>
 
           <span className="flex items-center gap-2 bg-gray-800 text-white rounded-full p-2">
-            <NextjsIcon className="w-8 h-8 fill-current text-white" /> NextJs
+            <Image alt="" src={"nextjs-icon.svg"} className="w-8 h-8 fill-current text-white " width={30} height={30} /> NextJs
           </span>
         </div>
         <Image
