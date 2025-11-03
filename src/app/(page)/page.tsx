@@ -3,6 +3,7 @@ import MainSection from "./main_section";
 import Project from "./projects";
 import Services from "./services";
 import Connect from "./connect";
+import Timeline from "./timeline";
 
 export const metadata: Metadata = {
   title: "About me",
@@ -10,9 +11,10 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-full bg-black">
+    <main className="w-full bg-black">
       <MainSection />
       <Project />
+      <Timeline />
       <Services />
       <Connect />
     </main>

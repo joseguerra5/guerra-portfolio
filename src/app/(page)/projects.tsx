@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Project() {
   return (
-    <section className="min-h-screen w-full relative bg-[#141313] pb-10">
+    <section className="min-h-screen w-full m-auto flex flex-col relative bg-[#141313] pb-10">
       <div className="flex flex-col items-center justify-center ">
         <h2 className="text-xl text-[#0A5AD9]">My Project</h2>
         <h1 className="text-3xl font-bold text-white text-center">Check out my recent project</h1>
@@ -13,10 +13,10 @@ export default function Project() {
         <div className="w-90 h-75 bg-gray-800 rounded-2xl">
           <Image
             alt=""
-            src="/image 2.png"
+            src="/chart.png"
             width={380}
             height={350}
-            className="p-2"
+            className="p-2 pb-0 rounded-3xl"
           />
           <div className="flex flex-col p-2">
             <h3 className="text-white text-xl font-bold">Dashboard</h3>
@@ -40,10 +40,10 @@ export default function Project() {
         <div className="w-90 h-75 bg-gray-800 rounded-2xl">
           <Image
             alt=""
-            src="/image 2.png"
+            src="/calendar.png"
             width={380}
             height={350}
-            className="p-2"
+            className="p-2 pb-0 rounded-3xl"
           />
           <div className="flex flex-col p-2">
             <h3 className="text-white text-xl font-bold">Calendar</h3>

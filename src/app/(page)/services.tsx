@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section className="min-h-screen w-full relative bg-black ">
+    <section className="min-h-screen w-full  m-auto flex flex-col relative bg-black ">
       <div className="flex flex-col items-center justify-center pt-10 ">
         <h2 className="text-xl text-[#0A5AD9]">My Services</h2>
         <h1 className="text-3xl font-bold text-white text-center">How I can help your company</h1>
@@ -41,7 +41,7 @@ export default function Services() {
         <div className="w-90 h-40 border-gray-800 border-2 rounded-2xl p-3">
           <Image
             alt=""
-            src="/infinity.svg"
+            src="/Infinity.svg"
             width={50}
             height={50}
             className="p-2"
