@@ -5,9 +5,6 @@ import Services from "./services";
 import Connect from "./connect";
 import Timeline from "./timeline";
 
-export const metadata: Metadata = {
-  title: "About me",
-};
 
 export default function Home() {
   return (

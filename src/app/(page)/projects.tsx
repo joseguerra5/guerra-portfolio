@@ -89,8 +89,23 @@ export default function Project() {
             <p className="text-gray-400 text-sm line-clamp-3">Seamless integrations with external APIs, including social login and cloud-based image storage solutions such as AWS, to enhance functionality and user experience</p>
           </div>
         </div>
-
       </div>
+      <a
+        href="https://www.linkedin.com/in/joseguerra5"
+        target="_blank"
+        className={`
+            relative px-6 py-2 rounded-xl font-semibold text-white
+            text-center m-auto mt-5 w-90
+            bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500
+            animate-[gradientShift_3s_linear_infinite]
+            bg-[length:200%_200%]
+            shadow-[0_0_12px_rgba(255,0,255,0.6)]
+            z-30
+            cursor-pointer
+          `}
+      >
+        Hire Me
+      </a>
     </section>
   );
 }

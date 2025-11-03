@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 export default function Timeline() {
   return (
-    <div>
+    <div className="flex items-center flex-col gap-5">
       <div className="flex flex-col items-center justify-center pt-10 ">
         <h2 className="text-xl text-[#0A5AD9]">My trajectory</h2>
         <h1 className="text-3xl font-bold text-white text-center">How I developed my life</h1>
@@ -53,6 +53,13 @@ export default function Timeline() {
         >
           <h3 className="vertical-timeline-element-title text-xl font-semibold">MBA Rocketseat Full-stack </h3>
           <h4 className="vertical-timeline-element-subtitle">Porto, PT</h4>
+          <p>Rocketseat Education</p>
+          <ul className="list-disc ml-5">
+            <li>Development of full-stack applications using Node.js and React</li>
+            <li>Design and implementation of REST APIs and microservices</li>
+            <li>Front-end development with modern React patterns (Hooks, Context, SPA)</li>
+            <li>Best practices in software engineering, clean architecture, and deployment</li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -89,6 +96,13 @@ export default function Timeline() {
         >
           <h3 className="vertical-timeline-element-title text-xl font-semibold">Power BI – Beginner to Advanced Course</h3>
           <h4 className="vertical-timeline-element-subtitle">Online</h4>
+          <p>Udemy</p>
+          <ul className="list-disc ml-5">
+            <li>Building interactive dashboards and data visualizations in Power BI</li>
+            <li>Connecting and transforming data using Power Query and DAX</li>
+            <li>Creating KPIs and analytical reports for business insights</li>
+          </ul>
+
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -118,6 +132,12 @@ export default function Timeline() {
         >
           <h3 className="vertical-timeline-element-title text-xl font-semibold">Microsoft Excel – Beginner to Advanced Course </h3>
           <h4 className="vertical-timeline-element-subtitle">Online</h4>
+          <p>Udemy</p>
+          <ul className="list-disc ml-5">
+            <li>Advanced Excel skills for data analysis and reporting</li>
+            <li>Proficient in formulas, PivotTables, and data validation</li>
+            <li>Creation of dashboards and performance tracking spreadsheets</li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -149,6 +169,12 @@ export default function Timeline() {
         >
           <h3 className="vertical-timeline-element-title text-xl font-semibold">Bachelor’s Degree in Accounting </h3>
           <h4 className="vertical-timeline-element-subtitle">Feira de Santana, BR</h4>
+          <ul className="list-disc ml-5">
+            <li>Solid understanding of accounting principles and financial reporting</li>
+            <li>Experience with bookkeeping, ledger management, and bank reconciliations</li>
+            <li>Data analysis and spreadsheet</li>
+            <li>Development of analytical and problem-solving skills applied to financial decision-making</li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -156,6 +182,23 @@ export default function Timeline() {
           icon={<Star />}
         />
       </VerticalTimeline>
+
+      <a
+        href="https://www.linkedin.com/in/joseguerra5"
+        target="_blank"
+        className={`
+            relative px-6 py-2 rounded-xl font-semibold text-white
+            text-center m-auto mt-5 w-90 
+            bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500
+            animate-[gradientShift_3s_linear_infinite]
+            bg-[length:200%_200%]
+            shadow-[0_0_12px_rgba(255,0,255,0.6)]
+            z-30
+            cursor-pointer
+          `}
+      >
+        Hire Me
+      </a>
     </div>
   )
 }
